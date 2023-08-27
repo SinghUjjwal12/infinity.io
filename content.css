@@ -1,0 +1,172 @@
+body{
+    background: url("dark-1836972_640.jpg")  no-repeat center center/cover;
+    
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* height: 764px; */
+}
+.container-card{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 500px;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+
+.container-card .card {
+    position: relative;
+    width: 343px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 77px;
+    margin-top: 4px;
+    height: 293px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+
+
+}
+
+.container-card .card:hover {
+    height: 300px;
+
+}
+
+.container-card .card .imgbr {
+    position: absolute;
+    width: 300px;
+    height: 220px;
+    background: #333;
+    top: 20px;
+    border-radius: 12px;
+    transition: 0.5s;
+    overflow: hidden;
+
+}
+
+.container-card .card .imgbr img {
+    height: 60px;
+    height: 60px;
+}
+
+.container-card .card:hover .imgbr {
+    top: -100px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
+
+
+
+}
+
+.container-card .card .imgbr img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.container-card .card .content {
+    position: absolute;
+    top: 250px;
+    width: 100%;
+    padding: 0 30px;
+    text-align: center;
+    height: 35px;
+    transition: 0.5s;
+    overflow: hidden;
+    object-fit: cover;
+
+
+
+}
+
+.container-card .card:hover .content {
+    top: 150px;
+    height: 250px;
+
+}
+
+
+.container-card .card .content h1 {
+    font-size: 1em;
+    font-weight: 700;
+    color: var(---clr);
+
+
+}
+
+.container-card .card .content p {
+    color: #333;
+    font-size: 1.05em;
+
+}
+
+
+.container-3{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.box12{
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 45px;
+}
+
+.pro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+    height: 300px;
+    width: 200px;
+    background-color: rgba(0, 68, 255, 0.349) ;
+    border-radius: 12px;
+    box-shadow: 0 3px 5px rgba(11, 163, 209, 0.932);
+    flex-wrap: wrap;
+}
+.pro h3{
+    font-size: 32px;
+    color: white;
+
+}
+.pro a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    /* border: 2px solid red; */
+    border-radius: 8px;
+    margin: auto;
+    background-color: black;
+}
+.pro a :hover a{
+    transition: all ease-in-out 0.7s;
+    transform: scaleX(1.5);
+    color: blue;
+    
+}
+
+.txt h2{
+    color: white;
+    font-size: 60px;
+}
